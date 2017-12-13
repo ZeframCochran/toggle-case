@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle toggle-case",
+        "command": "toggle-case:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "toggle-case",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "toggle-case:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
